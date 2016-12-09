@@ -1,0 +1,20 @@
+{
+	"mydb": {
+    "name": "mydb",
+    "connector": "mysql",
+		"host": "localhost",
+    "port": 3306,
+    "database": "filter_test",
+    "password": "",
+    "user": "root"
+	},
+	"msdb": {
+		"name": "msdb",
+		"connector": "mssql",
+    "host": "localhost",
+    "port": 1433,
+    "database": "filter_test",
+    "password": "N3f3l3jcs",
+    "user": "sa"
+  }
+}

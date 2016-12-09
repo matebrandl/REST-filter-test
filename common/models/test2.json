@@ -1,0 +1,31 @@
+{
+  "name": "test2",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "mssql": {
+    "table": "test2"
+  },
+  "properties": {
+    "id": {
+      "type": "Number",
+			"id": true,
+      "required": true
+    },
+    "name": {
+      "type": "String"
+    },
+		"valid": {
+      "type": "Boolean"
+    },
+		"deleted": {
+      "type": "Boolean"
+    }   
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
